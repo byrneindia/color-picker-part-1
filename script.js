@@ -23,9 +23,9 @@ function setColorPickerEventListeners(element,colors,pickerElements) {
 		});
 	}
 }
-function setElementBGcolor (bqElement, red, green, blue) {
+function setElementBGcolor (bgelement, red, green, blue) {
 	rgbVal = [red, green, blue].join(',');
-	bgelements.style.backgroundColor = "rgbVal(" + rgbVal + ")";
+	bgelement.style.backgroundColor = "rgb("+ rgbVal +")"
 }
 function setDisplayValues (red, green, blue)  {
 	let redVal = document.getElementById("redVal");
@@ -33,6 +33,6 @@ function setDisplayValues (red, green, blue)  {
 	let blueVal = document.getElementById("blueVal");
 
 	redVal.innerText = red;
-	greenVal.innertext = green;
+	greenVal.innerText = green;
 	blueVal.innerText = blue;
 }
