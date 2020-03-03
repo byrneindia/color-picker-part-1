@@ -18,7 +18,7 @@ function setColorPickerEventListeners(element,colors,pickerElements) {
 			let red = colors.red.value;
 			let green = colors.green.value;
 			let blue= colors.blue.value;
-			setElementBGcolor( bgElement, red, green, blue);
+			setElementBGcolor(element, red, green, blue);
 			setDisplayValues(red, green, blue)
 		});
 	}
